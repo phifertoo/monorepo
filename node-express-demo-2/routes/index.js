@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get("/", function (req, res, next) {
-  console.log("u2");
+  console.log("v2");
   res.render("index", { title: "Express", name: process.env.NAME });
 });
 
